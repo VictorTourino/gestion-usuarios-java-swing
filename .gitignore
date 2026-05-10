@@ -1,0 +1,10 @@
+# Archivos compilados
+*.class
+bin/
+build/
+
+# Cosas del IDE (VS Code, Eclipse)
+.vscode/
+.settings/
+.classpath
+.project

@@ -70,7 +70,7 @@ public class Ventana2 extends JFrame {
             if (filaSeleccionada == -1) {
                 JOptionPane.showMessageDialog(this, "Selecciona un usuario de la tabla para modificarlo.", "Aviso", JOptionPane.WARNING_MESSAGE);
             } else {
-                // 1. Extraemos los datos EXACTOS según las columnas de nuestra tabla (0 al 4)
+                //extraemos los datos EXACTOS según las columnas de nuestra tabla (0 al 5)
                 int idActual = (int) modeloTabla.getValueAt(filaSeleccionada, 0);
                 String usuarioActual = (String) modeloTabla.getValueAt(filaSeleccionada, 1);
                 String contraseñaActual = (String) modeloTabla.getValueAt(filaSeleccionada, 2);
